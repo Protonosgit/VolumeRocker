@@ -1,6 +1,6 @@
 # VolumeRocker
 
-<img src="/logo.png" alt="alt text" title="image Title" width="150"/>
+<img src="/logo.png" alt="logo" title="VoRo" width="250"/>
 
 
 App for remote controlling audio of Android devices
