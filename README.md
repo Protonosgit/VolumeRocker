@@ -1,5 +1,8 @@
 # VolumeRocker
-![Alt text](/logo.png "voro logo" height="200")
+
+<img src="/logo.png" alt="alt text" title="image Title" width="150"/>
+
+
 App for remote controlling audio of Android devices
 
 BlackNeutron is the owner of this app not me!
