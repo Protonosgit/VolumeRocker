@@ -1,4 +1,5 @@
 # VolumeRocker
+![Alt text](/logo.png "a title")
 App for remote controlling audio of Android devices
 
 BlackNeutron is the owner of this app not me!
