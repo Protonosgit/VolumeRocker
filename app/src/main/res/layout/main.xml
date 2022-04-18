@@ -1,0 +1,142 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:id="@+id/linear1"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:background="#000000"
+		android:gravity="center_horizontal|center_vertical"
+		android:orientation="vertical">
+		<LinearLayout
+			android:id="@+id/linear6"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="30dp"
+			android:gravity="center_horizontal|center_vertical"
+			android:orientation="horizontal">
+			<ImageView
+				android:id="@+id/imageview3"
+				android:layout_width="50dp"
+				android:layout_height="50dp"
+				android:padding="10dp"
+				android:src="@drawable/ic_settings_w"
+				android:scaleType="fitCenter" />
+			<LinearLayout
+				android:id="@+id/linear7"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:gravity="right"
+				android:orientation="horizontal">
+				<ImageView
+					android:id="@+id/imageview2"
+					android:layout_width="50dp"
+					android:layout_height="50dp"
+					android:padding="10dp"
+					android:src="@drawable/ic_info_w"
+					android:scaleType="fitCenter"
+					android:layout_gravity="right" />
+			</LinearLayout>
+		</LinearLayout>
+		<ImageView
+			android:id="@+id/imageview1"
+			android:layout_width="150dp"
+			android:layout_height="150dp"
+			android:layout_marginTop="25dp"
+			android:src="@drawable/logo_t"
+			android:scaleType="fitCenter" />
+		<LinearLayout
+			android:id="@+id/linear3"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:orientation="vertical">
+			<TextView
+				android:id="@+id/textview1"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="Connection mode:"
+				android:textSize="20sp"
+				android:textColor="#FFFFFF" />
+			<RadioButton
+				android:id="@+id/radiobutton1"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:gravity="center_vertical"
+				android:text="Bluetooth"
+				android:textSize="16sp"
+				android:textColor="#FFFFFF" />
+			<RadioButton
+				android:id="@+id/radiobutton2"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:gravity="center_vertical"
+				android:text="Server"
+				android:textSize="16sp"
+				android:textColor="#FFFFFF" />
+			<RadioButton
+				android:id="@+id/radiobutton3"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:gravity="center_vertical"
+				android:text="WIFI direct"
+				android:textSize="16sp"
+				android:textColor="#FFFFFF"
+				android:enabled="false"
+				android:alpha="0.7" />
+		</LinearLayout>
+		<ImageView
+			android:id="@+id/imageview4"
+			android:layout_width="60dp"
+			android:layout_height="60dp"
+			android:src="@drawable/ic_warn"
+			android:scaleType="fitCenter" />
+		<TextView
+			android:id="@+id/textview2"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:text="blackneutron x glx"
+			android:textSize="16sp"
+			android:textStyle="bold"
+			android:textColor="#FFFFFF" />
+		<LinearLayout
+			android:id="@+id/linear4"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:gravity="bottom"
+			android:orientation="horizontal"
+			android:layout_weight="1">
+			<TextView
+				android:id="@+id/textview3"
+				android:layout_width="wrap_content"
+				android:layout_height="50dp"
+				android:layout_margin="5dp"
+				android:padding="12dp"
+				android:gravity="center_horizontal|center_vertical"
+				android:text="Connect"
+				android:textSize="18sp"
+				android:textColor="#FFFFFF"
+				android:layout_weight="1" />
+			<TextView
+				android:id="@+id/textview4"
+				android:layout_width="wrap_content"
+				android:layout_height="50dp"
+				android:layout_margin="5dp"
+				android:padding="12dp"
+				android:gravity="center_horizontal|center_vertical"
+				android:text="Controll"
+				android:textSize="18sp"
+				android:textColor="#FFFFFF"
+				android:layout_weight="1" />
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>
